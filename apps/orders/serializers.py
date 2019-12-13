@@ -51,7 +51,7 @@ class OrderSerializer(serializers.ModelSerializer):
             'id',            
             'description',
             'customer',
-            'status',
+            'order_state',
             'orderdetails'
         ]
         
